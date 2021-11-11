@@ -25,17 +25,7 @@
 </script>
 
 <style lang="scss">
-.d-flex {
-  display: flex;
-}
-
-.jc-between {
-  justify-content: space-between;
-}
-
-.align-items-center {
-  align-items: center;
-}
+@import '../assets/scss/variables.scss';
 
 header {
   ul {
@@ -46,7 +36,7 @@ header {
       border: 10px solid transparent;
 
       &:hover {
-        border-bottom: 10px solid blue;
+        border-bottom:10px solid $principal_color;
       }
 
       a { 
@@ -55,7 +45,7 @@ header {
         color: black;
 
         &:hover {
-          color: blue;
+          color: $principal_color;
         }
       }
     }
