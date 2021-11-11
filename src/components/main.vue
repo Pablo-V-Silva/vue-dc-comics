@@ -34,24 +34,5 @@ main {
     color: $fourth_color;
     height: 200px;
   }
-  .bg_primary {
-    background-color: $principal_color;
-    padding: 5rem 0;
-  }
-
-  .cards_contain {
-    .card {
-      padding: 0.5rem;
-      width: calc(100% / 5);
-
-      img {
-        height: 50px;
-      }
-      .card_text {
-        padding-left: 0.5rem;
-        color: $fourth_color;
-      }
-    }
-  }
 }
 </style>
