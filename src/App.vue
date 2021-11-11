@@ -5,13 +5,8 @@
       <!-- Site Header -->
     </div>
 
-
-    <div class="bg_dark">
-      <div class="contain">
       <SiteMain />
       <!-- Site main -->
-      </div>
-    </div>
   </div>
 </template>
 
@@ -41,9 +36,5 @@ export default {
   box-sizing: border-box;
   font-family: "Kalam", cursive;
   font-family: "Montserrat", sans-serif;
-}
-
-.bg_dark {
-  background-color: $secondary_color;
 }
 </style>
