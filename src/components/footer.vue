@@ -57,7 +57,17 @@
             </div>
           </div>
         </div>
-        <div class="col-6 dc_logo_footer">
+        <div class="col-6 dc_logo_footer"></div>
+      </div>
+    </div>
+    <div class="credits">
+      <div class="contain d-flex jc-between align-items-center">
+        <button>SIGN-UP NOW!</button>
+        <div class="social-contain">
+          <p>FOLLOW US</p>
+          <div class="socials-icons">
+            
+          </div>
         </div>
       </div>
     </div>
@@ -94,6 +104,25 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .credits {
+    background-color: $fifth_color;
+  }
+
+  button {
+    padding: 1.5rem 1.7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: $fifth_color;
+    color: $fourth_color;
+    border: 2px solid $principal_color;
+    margin: 1.2rem 0;
+
+    &:hover {
+      background-color: $principal_color;
+      cursor: pointer;
+    }
   }
 }
 </style>
