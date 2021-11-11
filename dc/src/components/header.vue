@@ -43,6 +43,7 @@ header {
       list-style: none;
       margin-left: 1rem;
       font-weight: 600;
+      border: 10px solid transparent;
 
       &:hover {
         border-bottom: 10px solid blue;
