@@ -63,10 +63,14 @@
     <div class="credits">
       <div class="contain d-flex jc-between align-items-center">
         <button>SIGN-UP NOW!</button>
-        <div class="social-contain">
-          <p>FOLLOW US</p>
+        <div class="social-contain d-flex">
+          <p class="px-1">FOLLOW US</p>
           <div class="socials-icons">
-            
+            <img src="../assets/img/footer-facebook.png" alt="">
+            <img src="../assets/img/footer-twitter.png" alt="">
+            <img src="../assets/img/footer-youtube.png" alt="">
+            <img src="../assets/img/footer-pinterest.png" alt="">
+            <img src="../assets/img/footer-periscope.png" alt="">
           </div>
         </div>
       </div>
@@ -81,8 +85,10 @@
 @import '../assets/scss/variables.scss';
 
 footer {
-
   background-image: url('../assets/img/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
   h3 {
     font-size: 1.5rem;
     color: $fourth_color;
@@ -122,6 +128,22 @@ footer {
     &:hover {
       background-color: $principal_color;
       cursor: pointer;
+    }
+  }
+
+  .social-contain {
+    p {
+      color: $principal_color;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    img {
+      margin: 0 0.5rem;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }
