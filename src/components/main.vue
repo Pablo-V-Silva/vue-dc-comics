@@ -1,5 +1,7 @@
 <template>
   <main>
+    <Jumbo />
+
     <div class="bg_dark">
       <div class="content_contain">
       <div class="contain d-flex align-items-center h-100">
@@ -15,9 +17,12 @@
 <script>
 import Cards from './cards.vue'
 
+import Jumbo from './jumbo.vue'
+
 export default {
   components: {
-    Cards
+    Cards,
+    Jumbo
   }
 }
 </script>
