@@ -8,16 +8,16 @@
       </div>
     </div>
 
-    <cards/>
+    <Cards />
   </main>
 </template>
 
 <script>
-import cards from './cards.vue'
+import Cards from './cards.vue'
 
 export default {
   components: {
-    cards
+    Cards
   }
 }
 </script>
