@@ -27,5 +27,6 @@ export default {};
   font-weight: 500;
   position: absolute;
   bottom: -30px;
+  color: $fourth_color;
 }
 </style>

@@ -23,12 +23,21 @@
   margin: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .col-6 {
   width: calc(100% / 2);
 }
 
 .col-4 {
   width: calc(100% / 3);
+}
+
+.col-2 {
+  width: calc(100% / 6);
 }
 
 .py-05 {
@@ -53,4 +62,12 @@
 
 .px-1 {
   padding: 0 1rem
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.p-relative {
+  position: relative;
 }

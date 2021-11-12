@@ -1,6 +1,8 @@
 <template>
 
-<Product :v-for="product in products" :key="products.series" :thumb="products.thumb" :price="products.price" :series="products.series" :type="products.type"/>
+<div class="row">
+  <Product v-for="product in products" :key="product.series" :thumb="product.thumb" :price="product.price" :series="product.series" :type="product.type" class="col-2"/>
+</div>
 
 </template>
 
@@ -94,4 +96,7 @@ export default {
 </script>
 
 <style>
+.card.col-2 {
+  padding: 2rem;
+}
 </style>

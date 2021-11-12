@@ -2,6 +2,7 @@
 <div class="card">
   <div class="thumb">
     <img :src="thumb" alt="">
+    <p>{{ series }}</p>
   </div>
 </div>
   
@@ -10,7 +11,8 @@
 <script>
 export default {
   props: {
-    thumb: String
+    thumb: String,
+    series: String
   }
 }
 </script>
