@@ -1,5 +1,6 @@
 <template>
-<Product :v-for="product in products" :key="products.series" :src="products.thumb" :price="products.price" :series="products.series" :type="products.type"/>
+
+<Product :v-for="product in products" :key="products.series" :thumb="products.thumb" :price="products.price" :series="products.series" :type="products.type"/>
 
 </template>
 

@@ -5,7 +5,7 @@
     <div class="bg_dark">
       <div class="content_contain">
       <div class="contain d-flex align-items-center h-100">
-        <h2 class="">--&gt; CONTENT GOES HERE &LT;--</h2>
+        <Products />
       </div>
       </div>
     </div>
@@ -19,10 +19,13 @@ import Cards from './cards.vue'
 
 import Jumbo from './jumbo.vue'
 
+import Products from './products.vue'
+
 export default {
   components: {
     Cards,
-    Jumbo
+    Jumbo,
+    Products
   }
 }
 </script>
@@ -37,7 +40,7 @@ main {
   }
   .content_contain {
     color: $fourth_color;
-    height: 200px;
+    padding: 2rem 0;
   }
 }
 </style>
