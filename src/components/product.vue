@@ -2,7 +2,7 @@
 <div class="card">
   <div class="thumb">
     <img :src="thumb" alt="">
-    <p>{{ series }}</p>
+    <p class="py-1">{{ series.toUpperCase() }}</p>
   </div>
 </div>
   
